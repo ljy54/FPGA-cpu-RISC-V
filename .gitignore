@@ -1,0 +1,14 @@
+# Vivado构建产物
+.Xil/
+digital_twin.cache/
+digital_twin.runs/
+digital_twin.sim/
+digital_twin.gen/
+digital_twin.hw/
+digital_twin.ip_user_files/
+*.jou
+*.log
+*.xpr
+*.str
+*.backup.jou
+*.backup.log

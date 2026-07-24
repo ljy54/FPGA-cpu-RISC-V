@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_myCPU_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_myCPU" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="5,989.083 ns"></ZoomStartTime>
+      <ZoomEndTime time="6,033.384 ns"></ZoomEndTime>
+      <Cursor1Time time="6,016.333 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="232"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="32" />
+   <wvobject fp_name="/tb_myCPU/uut/student_top_inst/Core_cpu/cpu_clk" type="logic">
+      <obj_property name="ElementShortName">cpu_clk</obj_property>
+      <obj_property name="ObjectShortName">cpu_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/uut/student_top_inst/Core_cpu/cpu_rst" type="logic">
+      <obj_property name="ElementShortName">cpu_rst</obj_property>
+      <obj_property name="ObjectShortName">cpu_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/uut/student_top_inst/bridge_inst/seg_driver/s" type="array">
+      <obj_property name="ElementShortName">s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/uut/student_top_inst/Core_cpu/irom_addr" type="array">
+      <obj_property name="ElementShortName">irom_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">irom_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/uut/student_top_inst/Core_cpu/irom_data" type="array">
+      <obj_property name="ElementShortName">irom_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">irom_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/uut/student_top_inst/Core_cpu/u_id/inst" type="array">
+      <obj_property name="ElementShortName">inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/uut/student_top_inst/Core_cpu/u_id/op_code" type="array">
+      <obj_property name="ElementShortName">op_code[6:0]</obj_property>
+      <obj_property name="ObjectShortName">op_code[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/uut/student_top_inst/Core_cpu/u_id_ex/halt" type="logic">
+      <obj_property name="ElementShortName">halt</obj_property>
+      <obj_property name="ObjectShortName">halt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/uut/student_top_inst/Core_cpu/u_id_ex/in_current_p" type="array">
+      <obj_property name="ElementShortName">in_current_p[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in_current_p[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/uut/student_top_inst/Core_cpu/u_id_ex/out_current_p" type="array">
+      <obj_property name="ElementShortName">out_current_p[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_current_p[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/uut/student_top_inst/Core_cpu/u_id_ex/in_op_code" type="array">
+      <obj_property name="ElementShortName">in_op_code[6:0]</obj_property>
+      <obj_property name="ObjectShortName">in_op_code[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/uut/student_top_inst/Core_cpu/u_id_ex/out_op_code" type="array">
+      <obj_property name="ElementShortName">out_op_code[6:0]</obj_property>
+      <obj_property name="ObjectShortName">out_op_code[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/uut/student_top_inst/Core_cpu/u_ex_mem/halt" type="logic">
+      <obj_property name="ElementShortName">halt</obj_property>
+      <obj_property name="ObjectShortName">halt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/uut/student_top_inst/Core_cpu/perip_ren" type="logic">
+      <obj_property name="ElementShortName">perip_ren</obj_property>
+      <obj_property name="ObjectShortName">perip_ren</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/uut/student_top_inst/Core_cpu/perip_valid" type="logic">
+      <obj_property name="ElementShortName">perip_valid</obj_property>
+      <obj_property name="ObjectShortName">perip_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/uut/student_top_inst/bridge_inst/perip_valid_reg" type="logic">
+      <obj_property name="ElementShortName">perip_valid_reg</obj_property>
+      <obj_property name="ObjectShortName">perip_valid_reg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/uut/student_top_inst/Core_cpu/u_ex_mem/out_op_code" type="array">
+      <obj_property name="ElementShortName">out_op_code[6:0]</obj_property>
+      <obj_property name="ObjectShortName">out_op_code[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/s0_fp_x8" type="array">
+      <obj_property name="ElementShortName">s0_fp_x8[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s0_fp_x8[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/a0_x10" type="array">
+      <obj_property name="ElementShortName">a0_x10[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a0_x10[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/a1_x11" type="array">
+      <obj_property name="ElementShortName">a1_x11[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a1_x11[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/a2_x12" type="array">
+      <obj_property name="ElementShortName">a2_x12[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a2_x12[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/a3_x13" type="array">
+      <obj_property name="ElementShortName">a3_x13[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a3_x13[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/a4_x14" type="array">
+      <obj_property name="ElementShortName">a4_x14[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a4_x14[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/a5_x15" type="array">
+      <obj_property name="ElementShortName">a5_x15[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a5_x15[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/uut/student_top_inst/bridge_inst/perip_addr" type="array">
+      <obj_property name="ElementShortName">perip_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">perip_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/uut/student_top_inst/Core_cpu/u_ex_mem/out_ram_addr" type="array">
+      <obj_property name="ElementShortName">out_ram_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_ram_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/uut/student_top_inst/bridge_inst/dram_driver_inst/dout" type="array">
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/uut/student_top_inst/Core_cpu/u_id_ex/a" type="logic">
+      <obj_property name="ElementShortName">a</obj_property>
+      <obj_property name="ObjectShortName">a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/uut/student_top_inst/Core_cpu/u_id_ex/b" type="logic">
+      <obj_property name="ElementShortName">b</obj_property>
+      <obj_property name="ObjectShortName">b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/uut/student_top_inst/Core_cpu/u_id_ex/c" type="logic">
+      <obj_property name="ElementShortName">c</obj_property>
+      <obj_property name="ObjectShortName">c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/uut/student_top_inst/Core_cpu/u_id_ex/resume" type="logic">
+      <obj_property name="ElementShortName">resume</obj_property>
+      <obj_property name="ObjectShortName">resume</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_myCPU/uut/student_top_inst/Core_cpu/u_id_ex/halt" type="logic">
+      <obj_property name="ElementShortName">halt</obj_property>
+      <obj_property name="ObjectShortName">halt</obj_property>
+   </wvobject>
+</wave_config>
